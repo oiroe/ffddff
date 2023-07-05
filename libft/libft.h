@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pboonpro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: pboonpro <pboonpro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/18 23:45:29 by pboonpro          #+#    #+#             */
-/*   Updated: 2023/06/14 02:02:18 by pboonpro         ###   ########.fr       */
+/*   Updated: 2023/07/05 17:21:05 by pboonpro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+# include "get_next_line_bonus.h"
 
 typedef struct s_list
 {

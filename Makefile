@@ -6,13 +6,13 @@
 #    By: pboonpro <pboonpro@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/30 21:49:15 by pboonpro          #+#    #+#              #
-#    Updated: 2023/07/01 10:31:08 by pboonpro         ###   ########.fr        #
+#    Updated: 2023/07/05 18:08:38 by pboonpro         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = fdf
 
-SRC = meaw.c
+SRC = readfile.c
 
 OBJ = $(SRC:%.c=%.o)
 
@@ -22,7 +22,7 @@ MINILIB = minilibx_macos/libmlx.a
 
 CC = cc
 
-CFLAGS = -Wall -Wextra -Werror -g -Iinclude
+CFLAGS = -Wall -Wextra -Werror -g -Iinclude -fsanitize=address
 
 all : $(NAME)
 
